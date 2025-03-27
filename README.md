@@ -21,3 +21,8 @@ pylint --generate-rcfile | out-file -encoding utf8 .pylintrc
 ```
 pylint <file_name>.py
 ```
+
+### SQLAlchemy Install
+```
+pip install SQLAlchemy==2.0.29
+```
