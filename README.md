@@ -26,3 +26,8 @@ pylint <file_name>.py
 ```
 pip install SQLAlchemy==2.0.29
 ```
+
+### Pytest Install
+```
+pip install -U pytest
+```
