@@ -31,3 +31,8 @@ pip install SQLAlchemy==2.0.29
 ```
 pip install -U pytest
 ```
+
+### Run tests
+```
+pytest -s -v
+```
