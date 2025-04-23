@@ -19,7 +19,7 @@ def test_delete_pet():
     repo.delete_pets(name)
 
 @pytest.mark.skip(reason="interacao com o banco")
-def test_insert_people():
+def test_insert_person():
     first_name = "test name 2"
     last_name = "test last 2"
     age = 29
