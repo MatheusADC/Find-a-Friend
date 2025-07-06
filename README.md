@@ -36,3 +36,13 @@ pip install -U pytest
 ```
 pytest -s -v
 ```
+
+### Pydantic Install
+```
+pip install pydantic==2.7.1
+```
+
+### Add new libraries to the requirements file
+```
+venv/source/pip freeze > requirements.txt
+```
