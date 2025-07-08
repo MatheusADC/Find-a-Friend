@@ -46,3 +46,8 @@ pip install pydantic==2.7.1
 ```
 venv/source/pip freeze > requirements.txt
 ```
+
+### Force pylint to allow the commit
+```
+git commit -m "your_message" --no-verify
+```
